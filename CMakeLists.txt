@@ -2,14 +2,15 @@ cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
 
 project(IntersectionPolyDataFilter)
 
-find_package(VTK COMPONENTS  
+find_package(VTK COMPONENTS
+  vtkCommonColor
   vtkCommonCore
   vtkCommonDataModel
-  vtkFiltersCore  
+  vtkFiltersCore
   vtkFiltersGeneral
   vtkFiltersSources
   vtkInteractionStyle
-  vtkIOXML  
+  vtkIOXML
   vtkRenderingCore
   vtkRenderingFreeType
   vtkRenderingLabel
